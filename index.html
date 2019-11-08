@@ -36,37 +36,39 @@
           <input type="text" name="name"placeholder="code postal"/>
         </li>
         <li>
-          <label for="city">Ville</label>
+          <label for="city">3.Ville</label>
           <input type="text" name="city" placeholder="city"/>
         </li>
       </ul>
     </fieldset>
     <fieldset class="Rules">
       <legend class="Rules">Informations de réglement</legend>
-      <p>
-        1.Type de carte Bancaire
-      </p>
-      <li>
-        <input type="radio" name="Visa"/>
-        <label for="Visa">Visa</label>
+      <ul>
+        <li>
+          1.Type de carte Bancaire
+        </li>
+        <li>
+          <input type="radio" name="Visa"/>
+          <label for="Visa">Visa</label>
+        </li>
+        <li>
+          <input type="radio" name="Mastercard"/>
+          <label for="Mastercard">Mastercard</label>
+        </li>
+        <label for="cardNumber">2.Numéro de carte:</label>
+        <input type="password" name="cardNumber" placeholder="Numéro de carte"/>
       </li>
       <li>
-        <input type="radio" name="Mastercard"/>
-        <label for="Mastercard">Mastercard</label>
+        <label for="securityCode">3.Code de sécurité:</label>
+        <input type="password" name="securityCode" placeholder= "code de sécurité"/>
       </li>
-      <label for="cardNumber">2.Numéro de carte:</label>
-      <input type="password" name="cardNumber" placeholder="Numéro de carte"/>
-    </li>
-    <li>
-      <label for="securityCode">3.Code de sécurité:</label>
-      <input type="password" name="securityCode" placeholder= "code de sécurité"/>
-    </li>
-    <li>
+      <li>
         <label for="owner"> 4.Nom du titulaire:</label>
         <input type="text" name="owner" placeholder="Nom du titulaire"/>
-    </li>
-    </fieldset>
-    <input type="submit" name="J'achète" value="J'achète!"/>
-  </form>
+      </li>
+    </ul>
+  </fieldset>
+  <input type="submit" name="J'achète" value="J'achète!"/>
+</form>
 </body>
 </html>
